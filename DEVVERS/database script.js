@@ -26,7 +26,8 @@ database.ref('/users/' + userId.value).set
 updateBtn.addEventListener('click', (e) => {
     e.preventDefault();
     const newData = {
-        password: password.value
+        password: password.value,
+        userName: userName.value
     };
     rootRef.child(userId.value).update(newData);
 });
