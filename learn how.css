@@ -1,0 +1,35 @@
+
+img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+
+h1 {
+  text-align: center;
+
+}
+body {
+color: white;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+body {
+  background-image: url('https://my2-cdn.pgimgs.com/cms/news/2017/03/Property-Investment.original.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+    background-color: transparent;
+  background-size: cover;
+  font-family: sans-serif;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
