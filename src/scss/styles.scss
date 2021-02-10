@@ -1,0 +1,20 @@
+
+
+// Import custom styles
+@import "./global.scss";
+@import "./navbar.scss";
+@import "./masthead.scss";
+@import "./portfolio.scss";
+
+// Import custom utilities
+@import "./utilities.scss";
+
+
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://www.aegonlife.com/insurance-investment-knowledge/wp-content/uploads/2019/09/img3-1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+  };
+
